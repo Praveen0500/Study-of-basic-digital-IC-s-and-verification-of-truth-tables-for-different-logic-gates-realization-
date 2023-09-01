@@ -71,18 +71,28 @@ Developed by: PRAVEEN S
 RegisterNumber:212222240078
 
 module exp01 (a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor);
+
 input a,b;
+
 output yand,yor,ynot,yxor,ynand,ynor,yxnor;
+
 and(yand,a,b);
+
 or (yor,a,b);
+
 not (ynot,a);
+
 xor (yxor,a,b);
+
 nand (ynand,a,b);
+
 nor (ynor,a,b);
+
 xnor (yxnor,a,b);
+
 endmodule
 
-*/
+
 
 Logic symbol & Truthtable
 
